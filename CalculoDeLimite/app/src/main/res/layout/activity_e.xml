@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maxfilipe.calculodelimite.e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:text="Definir variável E"
+        android:background="#311B92"
+        android:paddingTop="15dp"
+        android:paddingLeft="53dp"
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:onClick="voltar"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="EQUAÇÃO DE GRAU 2"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/valorDeE"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Digite qualquer valor para e" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lim"
+        android:textSize="22sp"
+        android:paddingLeft="43dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="x -> a"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bx²+cx+d"
+        android:textSize="22sp"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-------------"
+        android:textSize="22sp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="163dp"
+        android:id="@+id/linha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="ex²+fx+g"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <ImageView
+        android:onClick="proximo"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:src="@drawable/proximo"
+        android:id="@+id/darcarona"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="41dp" />
+
+</RelativeLayout>

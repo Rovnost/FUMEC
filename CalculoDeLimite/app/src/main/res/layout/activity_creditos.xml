@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+
+    tools:context="com.example.maxfilipe.calculodelimite.creditos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:text="Créditos"
+        android:background="#311B92"
+        android:paddingTop="15dp"
+        android:paddingLeft="53dp"
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:onClick="voltar"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:text="ALUNOS"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Filipe"
+        android:textSize="22sp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Davi Cunha"
+        android:textSize="22sp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mateus Fonseca"
+        android:textSize="22sp"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natan Gazzinelli"
+        android:textSize="22sp"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miguel Anthony"
+        android:textSize="22sp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="800px"
+        android:id="@+id/imageView"
+        android:src="@drawable/fumec"
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
